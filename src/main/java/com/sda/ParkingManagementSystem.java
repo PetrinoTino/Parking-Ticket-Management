@@ -48,7 +48,7 @@ public class ParkingManagementSystem {
     }
 
     private static void displayMenu() {
-        System.out.println("\n--- Parking Tirana ---");
+        System.out.println("\n    --- Parking Tirana ---");
         System.out.println("1. Shto një makinë në parking");
         System.out.println("2. Gjenero biletë dhe llogarit tarifën");
         System.out.println("3. Shfaq vendet e lira të parkimit");
@@ -56,6 +56,7 @@ public class ParkingManagementSystem {
         System.out.println("5. Shfaq fitimet totale");
         System.out.println("6. Dil");
         System.out.print("Zgjidhni një opsion: ");
+        System.out.println("\n- - - - - - - - - - - - - ");
     }
 
     private static int getUserChoice() {
