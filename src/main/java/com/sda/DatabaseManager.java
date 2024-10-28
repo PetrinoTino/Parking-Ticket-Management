@@ -10,7 +10,9 @@ public class DatabaseManager {
     private static final String PASSWORD = "--//-- "; // Your Password
 
     public static Connection getConnection() throws SQLException {
+
         return DriverManager.getConnection(URL, USER, PASSWORD);
+
     }
 
     public static void initializeDatabase() {
